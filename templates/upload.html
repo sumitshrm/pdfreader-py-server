@@ -1,0 +1,21 @@
+<html>
+   <body>
+      <form action = "http://localhost:5000/upload" method = "POST"
+         enctype = "multipart/form-data">
+         <table >
+            <tr>
+               <td>File</td><td><input type = "file" name = "file" /></td>
+            </tr><tr>
+               <td>pages ('1,2' or 'all')</td><td><input type="text" name="pages" value="1" /></td>
+            </tr><tr>
+               <td>config</td><td><textarea style="height: 100"  name="config">{"date":0, "particular":1, "details":2, "withdrawal":3, "deposit":4, "balance":5}</textarea></td>
+            </tr>
+         </table>
+         
+         
+         
+         <input type = "submit"/>
+
+      </form>
+   </body>
+</html>
